@@ -1,0 +1,21 @@
+#name {
+  text-align: center;
+}
+
+.resume-header {
+  margin-bottom: 1px;
+}
+
+.resume-divider {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+body {
+  background: rgba(100,150, 200, 0.5);
+}
+
+#social-icons {
+  text-align: center;
+  font-size: 20px;
+}
