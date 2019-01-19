@@ -1,4 +1,4 @@
-#name {
+#name, #contact-info, #about-info {
   text-align: center;
 }
 
@@ -23,4 +23,11 @@ body {
 #nav {
   background-color: transparent;
   border-color: transparent;
+}
+
+#contact-info, #about-info {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }

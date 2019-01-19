@@ -18,6 +18,14 @@ app.get("/resume", function(req, res){
   res.render("resume");
 });
 
+app.get("/about", function(req, res){
+  res.render("about");
+});
+
+app.get("/contact", function(req, res){
+  res.render("contact");
+});
+
 app.listen(port, process.env.IP, function(){
   console.log(`sever started on ${port}!`);
 });
