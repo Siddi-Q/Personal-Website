@@ -25,9 +25,47 @@ body {
   border-color: transparent;
 }
 
-#contact-info, #about-info {
+/* #contact-info, #about-info {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translateX(-50%) translateY(-50%);
+} */
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #21405e;
+  color: #ffffff;
+  margin-top: 20px;
+  position: static;
+  margin-top: 2em;
+}
+
+#education {
+  background-color: #8eb3d7;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#skills {
+  background-color: #7ba6d1;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#projects {
+  background-color: #6899ca;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+#experience {
+  background-color: #6496c8;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
 }
