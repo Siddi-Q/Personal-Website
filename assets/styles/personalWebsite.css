@@ -28,6 +28,7 @@ body {
 
 .fa-star {
   color:green;
+  color: #ffd700;
 }
 
 .selected {
@@ -39,6 +40,11 @@ body {
   padding: 1rem;
   margin: 1rem;
   box-shadow: 0 0 10px rgba(1,0,0,0.3);
+}
+
+.stars {
+  list-style-type: none;
+  margin-left: 100px;
 }
 
 #name, #contact-info, #about-info {
@@ -61,6 +67,10 @@ body {
 
 #skills {
   background-color: #7ba6d1;
+}
+
+#list-of-skills {
+  float: left;
 }
 
 #projects {
