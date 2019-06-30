@@ -92,3 +92,9 @@ body {
   margin: 2rem;
   box-shadow: 0 0 5px rgba(1,0,0,0.3);
 }
+
+@media screen and (max-width: 540px) {
+  #about-info h1,  #contact-info h1 {
+    font-size: 2rem;
+  }
+}
