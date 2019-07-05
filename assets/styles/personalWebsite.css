@@ -2,6 +2,18 @@ body {
   background-image: linear-gradient(to bottom right, #2cb5e8, #1fc8db);
 }
 
+.welcome {
+  font-weight: 900;
+  font-size: 3.5em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.welcome .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
 .resume-header {
   margin-bottom: 1px;
 }
