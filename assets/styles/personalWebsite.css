@@ -28,13 +28,23 @@ body {
   margin-bottom: 5px;
 }
 
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 12rem;
+}
+
 .footer {
+  bottom: 0;
   padding: 20px;
-  text-align: center;
+  width: 100%;
+  position: absolute;
   background-color: #21405e;
+  text-align: center;
   color: #ffffff;
-  position: static;
-  margin-top: 2em;
 }
 
 .footer span {
