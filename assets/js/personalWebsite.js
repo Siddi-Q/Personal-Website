@@ -8,7 +8,7 @@ $('.welcome').each(function(){
   );
 });
 
-anime.timeline({loop: true})
+anime.timeline()
   .add({
     targets: '.welcome .letter',
     scale: [4,1],
@@ -19,10 +19,4 @@ anime.timeline({loop: true})
     delay: function(el, i) {
       return 70*i;
     }
-  }).add({
-    targets: '.welcome',
-    opacity: 0,
-    duration: 1000,
-    easing: "easeOutExpo",
-    delay: 1000
   });
