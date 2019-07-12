@@ -47,16 +47,12 @@ body {
   color: #ffffff;
 }
 
-.footer span {
-  color: #ff6600;
+.footer span, .footer p span  {
+  color: #e65c00;
 }
 
 .footer span a {
   color: #ffffff;
-}
-
-.footer p span {
-  color: #ff6600;
 }
 
 .fa-star {
@@ -101,11 +97,11 @@ body {
 }
 
 #education {
-  background-color: #8eb3d7;
+  background-color: #33bbff;
 }
 
 #skills {
-  background-color: #7ba6d1;
+  background-color: #1ab2ff;
 }
 
 #list-of-skills {
@@ -113,24 +109,31 @@ body {
 }
 
 #projects {
-  background-color: #6899ca;
+  background-color: #00aaff;
 }
 
 #experience {
-  background-color: #6496c8;
-}
-
-#nav a:hover {
-  background: #8eb3d7;
-  border-radius: 10%;
-  transition: all 0.3s;
+  background-color: #0099e6;
 }
 
 #nav a {
-  color: #ff6600;
+  color: #e65c00;
   letter-spacing: 0.25rem;
   font-size: 2rem;
   font-weight: 600;
+}
+
+#nav a::after {
+  content: '';
+  width: 0px;
+  height: 0.25rem;
+  display: block;
+  background: #e65c00;
+  transition: 300ms;
+}
+
+#nav a:hover::after {
+  width: 100%;
 }
 
 @media screen and (max-width: 540px) {
