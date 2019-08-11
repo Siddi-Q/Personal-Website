@@ -55,7 +55,7 @@ body {
   color: #ffffff;
 }
 
-.fa-star {
+.fa-star, .fa-star-half-alt {
   color: #ffd700;
 }
 
@@ -88,7 +88,7 @@ body {
 
 #social-icons {
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 #nav {
